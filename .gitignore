@@ -1,0 +1,32 @@
+# Python / Django
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+*.env
+.venv
+*.sqlite3
+*.log
+local_settings.py
+db.sqlite3
+media/
+
+# Frontend (Node / Vite / React)
+node_modules/
+dist/
+dist-ssr/
+*.local
+.npm
+.eslintcache
+
+# Editor & OS
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
