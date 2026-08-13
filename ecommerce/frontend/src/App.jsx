@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import { Toaster } from 'react-hot-toast';
 import { AuthProvider } from './context/AuthContext';
 import { CartProvider } from './context/CartContext';
@@ -29,7 +29,7 @@ import AdminDashboard from './pages/AdminDashboard';
 
 function App() {
   return (
-    <BrowserRouter>
+    <Router>
       <AuthProvider>
         <CartProvider>
           <WishlistProvider>
@@ -92,7 +92,7 @@ function App() {
           </WishlistProvider>
         </CartProvider>
       </AuthProvider>
-    </BrowserRouter>
+    </Router>
   );
 }
 
